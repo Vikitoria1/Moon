@@ -17,9 +17,19 @@
     <header class="header">
       <div class="container">
         <div class="header__inner">
+          <button class="menu-btn" type="button">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+          </button>
           <a class="logo" href="index.html">
             <img src="images/logo.png" alt="logo" />
           </a>
+          <a class="header__cart" href="#">
+                <img src="images/shopping-cart.svg" alt="picture" />
+              </a>
+          <nav class="nav">
           <ul class="header__list">
             <li class="header__item">
               <a class="header__link" href="#">Home</a>
@@ -50,269 +60,277 @@
                 <img src="images/favorite.svg" alt="picture" />
               </a>
             </li>
-            <li class="header__nav-item">
+            <li class="header__nav-item cart">
               <a class="header__nav-link" href="#">
                 <img src="images/shopping-cart.svg" alt="picture" />
               </a>
             </li>
           </ul>
+          </nav>
         </div>
       </div>
     </header>
-    <section class="top">
-      <div class="container">
-        <div class="top__inner">
-          <img src="images/top-icon.svg" alt="icon" />
-          <p class="top__text">Handcrafted in Viet Nam since 1650</p>
-          <h1 class="top__title title">BAT TRANG DINNER SET</h1>
-          <button class="top__btn" type="button">SHOP NOW</button>
-        </div>
-      </div>
-    </section>
-    <section class="catalog">
-      <div class="container">
-        <ul class="catalog__list">
-          <li class="catalog__item">
-            <img src="images/catalog-1.jpg" alt="picture" />
-            <a class="catalog__link" href="#">
-              <p class="catalog__link-text">TableWare</p>
-            </a>
-          </li>
-          <li class="catalog__item">
-            <img src="images/catalog-2.jpg" alt="picture" />
-            <a class="catalog__link" href="#">
-              <p class="catalog__link-text">Home decor</p>
-            </a>
-          </li>
-          <li class="catalog__item">
-            <img src="images/catalog-3.jpg" alt="picture" />
-            <a class="catalog__link" href="#">
-              <p class="catalog__link-text">Holiday</p>
-            </a>
-          </li>
-          <li class="catalog__item">
-            <img src="images/catalog-4.jpg" alt="picture" />
-            <a class="catalog__link" href="#">
-              <p class="catalog__link-text">Collection</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="discount">
-      <div class="container">
-        <div class="discount__inner">
-          <div class="discount__list">
-            <h2 class="discount__title title">
-              Up to 40% off our Christmas collection
-            </h2>
-            <p class="discount__text">
-              Discover amazing deals on our exclusive Christmas collection!
-              Enjoy up to 40% off on a wide range of festive items, from elegant
-              decorations to perfect gifts for your loved ones.
-            </p>
-            <button class="discount__btn" type="button">Shop now</button>
+    <main>
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <img src="images/top-icon.svg" alt="icon" />
+            <p class="top__text">Handcrafted in Viet Nam since 1650</p>
+            <h1 class="top__title title">BAT TRANG DINNER SET</h1>
+            <button class="top__btn" type="button">SHOP NOW</button>
           </div>
-          <img class="discount__img" src="images/discount.jpg" alt="pictere" />
         </div>
-      </div>
-    </section>
-    <section class="best">
-      <div class="container">
-        <h2 class="best__title title">Best sellers</h2>
-        <ul class="best__list">
-          <li class="best__item">
-            <img src="images/best-1.jpg" alt="picture" />
-            <div class="best__item-content">
-              <p class="best__name">Small Ecru Ceramic Compote</p>
-              <p class="best__price">$37.00</p>
+      </section>
+      <section class="catalog">
+        <div class="container">
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <img src="images/catalog-1.jpg" alt="picture" />
+              <a class="catalog__link" href="#">
+                <p class="catalog__link-text">TableWare</p>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <img src="images/catalog-2.jpg" alt="picture" />
+              <a class="catalog__link" href="#">
+                <p class="catalog__link-text">Home decor</p>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <img src="images/catalog-3.jpg" alt="picture" />
+              <a class="catalog__link" href="#">
+                <p class="catalog__link-text">Holiday</p>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <img src="images/catalog-4.jpg" alt="picture" />
+              <a class="catalog__link" href="#">
+                <p class="catalog__link-text">Collection</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="discount">
+        <div class="container">
+          <div class="discount__inner">
+            <div class="discount__list">
+              <h2 class="discount__title title">
+                Up to 40% off our Christmas collection
+              </h2>
+              <p class="discount__text">
+                Discover amazing deals on our exclusive Christmas collection!
+                Enjoy up to 40% off on a wide range of festive items, from
+                elegant decorations to perfect gifts for your loved ones.
+              </p>
+              <button class="discount__btn" type="button">Shop now</button>
+            </div>
+            <img
+              class="discount__img"
+              src="images/discount.jpg"
+              alt="picture"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="best">
+        <div class="container">
+          <h2 class="best__title title">Best sellers</h2>
+          <ul class="best__list">
+            <li class="best__item">
+              <img src="images/best-1.jpg" alt="picture" />
+              <div class="best__item-content">
+                <p class="best__name">Small Ecru Ceramic Compote</p>
+                <p class="best__price">$37.00</p>
+                <p class="best__text">
+                  Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                  tortor eu.
+                </p>
+                <button class="best__btn" type="button">Add to cart</button>
+              </div>
+            </li>
+            <li class="best__item">
+              <img src="images/best-2.jpg" alt="picture" />
+              <p class="best__name">Warrick White Vase 14"</p>
+              <p class="best__price">$49.00</p>
               <p class="best__text">
-                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
               </p>
               <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-3.jpg" alt="picture" />
+              <p class="best__name">Porcelain Dinner Plate</p>
+              <p class="best__price">$35.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-4.jpg" alt="picture" />
+              <p class="best__name">Warrick White Vase 20</p>
+              <p class="best__price">$41.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-5.jpg" alt="picture" />
+              <p class="best__name">Rounded Dual Handled Vase</p>
+              <p class="best__price">$49.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-6.jpg" alt="picture" />
+              <p class="best__name">Marin White Dinner Plate</p>
+              <p class="best__price">$28.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-7.jpg" alt="picture" />
+              <p class="best__name">Tall Cream Ceramic Vase</p>
+              <p class="best__price">$46.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+            <li class="best__item">
+              <img src="images/best-8.jpg" alt="picture" />
+              <p class="best__name">White Dinner Luana Bowl</p>
+              <p class="best__price">$30.00</p>
+              <p class="best__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="best__btn" type="button">Add to cart</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="info__inner">
+            <div class="info__made">
+              <h2 class="info__title title">Made in viet Nam since 1450</h2>
+              <p class="info__text">
+                Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+                phasellus mollis sit aliquam sit nullam neque ultrices.
+              </p>
+              <a class="info__link" href="">Lear more</a>
             </div>
-          </li>
-          <li class="best__item">
-            <img src="images/best-2.jpg" alt="picture" />
-            <p class="best__name">Warrick White Vase 14"</p>
-            <p class="best__price">$49.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-3.jpg" alt="picture" />
-            <p class="best__name">Porcelain Dinner Plate</p>
-            <p class="best__price">$35.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-4.jpg" alt="picture" />
-            <p class="best__name">Warrick White Vase 20</p>
-            <p class="best__price">$41.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-5.jpg" alt="picture" />
-            <p class="best__name">Rounded Dual Handled Vase</p>
-            <p class="best__price">$49.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-6.jpg" alt="picture" />
-            <p class="best__name">Marin White Dinner Plate</p>
-            <p class="best__price">$28.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-7.jpg" alt="picture" />
-            <p class="best__name">Tall Cream Ceramic Vase</p>
-            <p class="best__price">$46.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-          <li class="best__item">
-            <img src="images/best-8.jpg" alt="picture" />
-            <p class="best__name">Luana Bowl</p>
-            <p class="best__price">$30.00</p>
-            <p class="best__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="best__btn" type="button">Add to cart</button>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="info">
-      <div class="container">
-        <div class="info__inner">
-          <div class="info__made">
-            <h2 class="info__title title">Made in viet Nam since 1450</h2>
-            <p class="info__text">
-              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-              phasellus mollis sit aliquam sit nullam neque ultrices.
-            </p>
-            <a class="info__link" href="">Lear more</a>
+            <img class="info__img" src="images/info-1.jpg" alt="picture" />
           </div>
-          <img class="info__img" src="images/info-1.jpg" alt="picture" />
-        </div>
-        <div class="info__list">
-          <img class="info__img" src="images/info-2.jpg" alt="picture" />
-          <div class="info__history">
-            <h2 class="info__title title">Our History</h2>
-            <p class="info__text">
-              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-              phasellus mollis sit aliquam sit
-            </p>
-            <a class="info__link" href="">Lear more</a>
+          <div class="info__list">
+            <img class="info__img" src="images/info-2.jpg" alt="picture" />
+            <div class="info__history">
+              <h2 class="info__title title">Our History</h2>
+              <p class="info__text">
+                Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+                phasellus mollis sit aliquam sit
+              </p>
+              <a class="info__link" href="">Lear more</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="discover">
-      <div class="container">
-        <h2 class="discover__title title">Discover new arrivals</h2>
-        <ul class="discover__list">
-          <li class="discover__item">
-            <img src="images/discover-1.jpg" alt="picture" />
-            <p class="discover__name">Porcelain Dinner Plate</p>
-            <p class="discover__price">$28.00</p>
-            <p class="discover__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="discover__btn" type="button">Add to cart</button>
-          </li>
-          <li class="discover__item">
-            <img src="images/discover-2.jpg" alt="picture" />
-            <p class="discover__name">Ophelia Matte Natural Vase</p>
-            <p class="discover__price">$32.00</p>
-            <p class="discover__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="discover__btn" type="button">Add to cart</button>
-          </li>
-          <li class="discover__item">
-            <img src="images/discover-3.jpg" alt="picture" />
-            <p class="discover__name">Porcelain Dinner Plate</p>
-            <p class="discover__price">$29.00</p>
-            <p class="discover__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="discover__btn" type="button">Add to cart</button>
-          </li>
-          <li class="discover__item">
-            <img src="images/discover-4.jpg" alt="picture" />
-            <p class="discover__name">Luana Bowl</p>
-            <p class="discover__price">$31.00</p>
-            <p class="discover__text">
-              Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
-              tortor eu.
-            </p>
-            <button class="discover__btn" type="button">Add to cart</button>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="blog">
-      <div class="container">
-        <h2 class="blog__title title">Our blog</h2>
-        <div class="blog__inner">
-          <div class="blog__list">
-            <p class="blog__list-tab">TableWare</p>
-            <h3 class="blog__list-title title">
-              The secrets to a kitchen room
-            </h3>
-            <p class="blog__list-text">
-              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
-              phasellus mollis sit aliquam sit nullam neque ultrices.
-            </p>
-            <a class="blog__list-link" href="#">Read more</a>
+      </section>
+      <section class="discover">
+        <div class="container">
+          <h2 class="discover__title title">Discover new arrivals</h2>
+          <ul class="discover__list">
+            <li class="discover__item">
+              <img src="images/discover-1.jpg" alt="picture" />
+              <p class="discover__name">Porcelain Dinner Plate</p>
+              <p class="discover__price">$28.00</p>
+              <p class="discover__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="discover__btn" type="button">Add to cart</button>
+            </li>
+            <li class="discover__item">
+              <img src="images/discover-2.jpg" alt="picture" />
+              <p class="discover__name">Ophelia Matte Natural Vase</p>
+              <p class="discover__price">$32.00</p>
+              <p class="discover__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="discover__btn" type="button">Add to cart</button>
+            </li>
+            <li class="discover__item">
+              <img src="images/discover-3.jpg" alt="picture" />
+              <p class="discover__name">Porcelain Dinner Plate</p>
+              <p class="discover__price">$29.00</p>
+              <p class="discover__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="discover__btn" type="button">Add to cart</button>
+            </li>
+            <li class="discover__item">
+              <img src="images/discover-4.jpg" alt="picture" />
+              <p class="discover__name">White Dinner Luana Bowl</p>
+              <p class="discover__price">$31.00</p>
+              <p class="discover__text">
+                Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit
+                tortor eu.
+              </p>
+              <button class="discover__btn" type="button">Add to cart</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <h2 class="blog__title title">Our blog</h2>
+          <div class="blog__inner">
+            <div class="blog__list">
+              <p class="blog__list-tab">TableWare</p>
+              <h3 class="blog__list-title title">
+                The secrets to a kitchen room
+              </h3>
+              <p class="blog__list-text">
+                Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+                phasellus mollis sit aliquam sit nullam neque ultrices.
+              </p>
+              <a class="blog__list-link" href="#">Read more</a>
+            </div>
+            <img class="blog__img" src="images/blog.jpg" alt="picture" />
           </div>
-          <img class="blog__img" src="images/blog.jpg" alt="picture" />
         </div>
-      </div>
-    </section>
-    <section class="mail">
-      <div class="container">
-        <div class="mail__list">
-          <p class="mail__text">Sign up for emails</p>
-          <h2 class="mail__title title">For news, collections & more</h2>
-          <form class="mail__form" action="#">
-            <input
-              class="mail__email"
-              type="email"
-              placeholder="Enter your email address"
-            />
-            <button class="mail__btn" type="submit">Sign up</button>
-          </form>
+      </section>
+      <section class="mail">
+        <div class="container">
+          <div class="mail__list">
+            <p class="mail__text">Sign up for emails</p>
+            <h2 class="mail__title title">For news, collections & more</h2>
+            <form class="mail__form" action="#">
+              <input
+                class="mail__email"
+                type="email"
+                placeholder="Enter your email address"
+              />
+              <button class="mail__btn" type="submit">Sign up</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
@@ -326,11 +344,12 @@
               Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
               mauris sed ma
             </p>
-            <a class="footer__box-link" href=""
+            <a class="footer__box-link" href="#"
               >Get started
-              <img src="images/Arrow Right.svg" alt="icon" />
+              <img src="images/arrow-right.svg" alt="icon" />
             </a>
           </div>
+          <div class="divider"></div>
           <div class="footer__content">
             <ul class="footer__about-list">
               <li class="footer__about-title">About us</li>
@@ -398,5 +417,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
