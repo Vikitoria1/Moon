@@ -175,9 +175,15 @@ body {
 
 .catalog__list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px 30px;
+}
+
+.catalog__item {
+margin-right: 30px;
+}
+
+.catalog__item:last-child {
+margin-right: 0;
 }
 
 .catalog__item img {

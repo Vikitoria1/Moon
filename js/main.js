@@ -6,7 +6,34 @@ btn.addEventListener('click', ()=>{
 });
 
 $(function(){
-    $('.team__list').slick({
+    $('.catalog__list').slick({
+        arrows: false,
+        infinity: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 940,
+      settings: {
+        arrows: false,
+        infinity: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 430,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1.5
+      }
+    }
+  ]
+});
+});
+
+$(function(){
+    $('.team__list', '.catalog__list').slick({
         arrows: false,
         infinity: false,
         slidesToShow: 4,
